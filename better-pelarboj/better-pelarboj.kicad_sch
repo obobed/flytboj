@@ -2251,6 +2251,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Switching:MT3608"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5048,7 +5147,7 @@
 	)
 	(rectangle
 		(start 15.748 157.48)
-		(end 108.712 194.056)
+		(end 108.712 196.85)
 		(stroke
 			(width 0)
 			(type default)
@@ -5149,7 +5248,7 @@
 	)
 	(text "XIAO"
 		(exclude_from_sim no)
-		(at 29.972 190.754 0)
+		(at 23.622 162.56 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -5191,6 +5290,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "296cfbe0-3e43-4d89-9464-d2f3c5487f36")
+	)
+	(junction
+		(at 24.13 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29900d70-b980-4a06-a35e-2b8f3de0a1a2")
 	)
 	(junction
 		(at 52.07 29.21)
@@ -5251,6 +5356,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b7380c8-9597-42c5-8812-456ff12a15d1")
+	)
+	(junction
+		(at 36.83 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bce4c39-a178-4789-9be6-bae5971e7ccf")
 	)
 	(junction
 		(at 114.3 120.65)
@@ -5592,6 +5703,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 179.07) (xy 36.83 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fbda278-13aa-41a7-82e7-3c25829b404d")
+	)
+	(wire
+		(pts
 			(xy 90.17 106.68) (xy 92.71 106.68)
 		)
 		(stroke
@@ -5879,16 +6000,6 @@
 			(type default)
 		)
 		(uuid "39405311-1932-4522-8b15-d534e4c7c5c3")
-	)
-	(wire
-		(pts
-			(xy 17.78 181.61) (xy 17.78 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c09b080-d06a-40d5-a030-0e5b7397dd77")
 	)
 	(wire
 		(pts
@@ -6312,6 +6423,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 187.96) (xy 35.56 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b912cd8-f0b2-4825-891d-91f0b7776aa7")
+	)
+	(wire
+		(pts
 			(xy 80.01 106.68) (xy 90.17 106.68)
 		)
 		(stroke
@@ -6402,16 +6523,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 179.07) (xy 41.91 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74fe90fe-5ec4-4b70-8424-b85cac46f5b7")
-	)
-	(wire
-		(pts
 			(xy 100.33 118.11) (xy 100.33 120.65)
 		)
 		(stroke
@@ -6452,6 +6563,26 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 182.88) (xy 25.4 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77bdd1de-0ef6-4280-80cc-8eb4037830ba")
+	)
+	(wire
+		(pts
+			(xy 36.83 182.88) (xy 35.56 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "786f780c-c094-4ccb-a0f4-47dcdc9318ee")
+	)
+	(wire
+		(pts
 			(xy 83.82 39.37) (xy 83.82 29.21)
 		)
 		(stroke
@@ -6469,6 +6600,16 @@
 			(type default)
 		)
 		(uuid "7a2d7436-808f-4076-9719-66ba6f3bbcd0")
+	)
+	(wire
+		(pts
+			(xy 24.13 189.23) (xy 24.13 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b5c45ad-ab02-4228-b3ab-c4ba55ec3e70")
 	)
 	(wire
 		(pts
@@ -6812,6 +6953,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 187.96) (xy 24.13 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a48bf5ec-cbe1-41b9-8faf-e7f8ac72760f")
+	)
+	(wire
+		(pts
 			(xy 91.44 45.72) (xy 91.44 44.45)
 		)
 		(stroke
@@ -6902,6 +7053,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 179.07) (xy 36.83 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b16b586d-795d-4018-9c6f-f77f51398e3b")
+	)
+	(wire
+		(pts
 			(xy 104.14 118.11) (xy 104.14 120.65)
 		)
 		(stroke
@@ -6929,6 +7090,16 @@
 			(type default)
 		)
 		(uuid "b57b8578-ce27-4fa3-bd8e-05f52e518484")
+	)
+	(wire
+		(pts
+			(xy 25.4 187.96) (xy 24.13 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6def70f-60c8-45d4-b807-8f6c4fa8ffcb")
 	)
 	(wire
 		(pts
@@ -7089,6 +7260,16 @@
 			(type default)
 		)
 		(uuid "c7fdf01f-936f-4928-a1ea-e3c5b846e031")
+	)
+	(wire
+		(pts
+			(xy 36.83 182.88) (xy 36.83 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc0e7526-6884-489b-965a-49f3efaf3833")
 	)
 	(wire
 		(pts
@@ -7911,6 +8092,82 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 158.75 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0126e88d-173b-485f-bc05-cf03e521d6bc")
+		(property "Reference" "H2"
+			(at 161.29 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 161.29 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 158.75 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 158.75 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "better-pelarboj"
+				(path "/144e05ac-b12f-45a2-b32c-270a7a557059"
+					(reference "H2")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -8969,7 +9226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 265.43 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -11452,7 +11709,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 17.78 181.61 0)
+		(at 24.13 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11463,7 +11720,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b9aa736-300e-4d2b-9cdb-7b88fdeae6a5")
 		(property "Reference" "#PWR01"
-			(at 17.78 187.96 0)
+			(at 24.13 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11474,7 +11731,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 17.78 186.69 0)
+			(at 24.13 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11484,7 +11741,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 181.61 0)
+			(at 24.13 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11495,7 +11752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 181.61 0)
+			(at 24.13 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11506,7 +11763,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 17.78 181.61 0)
+			(at 24.13 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12429,6 +12686,82 @@
 			(project "better-pelarboj"
 				(path "/144e05ac-b12f-45a2-b32c-270a7a557059"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 158.75 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c2a0f90-e5dd-45d2-b2e5-c2a42053f032")
+		(property "Reference" "H1"
+			(at 161.29 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 161.29 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 158.75 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 158.75 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "better-pelarboj"
+				(path "/144e05ac-b12f-45a2-b32c-270a7a557059"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -13451,18 +13784,17 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 22.86 179.07 0)
+		(at 30.48 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
+		(dnp yes)
 		(uuid "ba40053f-c140-4781-9dc6-d6f5ece4bb8c")
 		(property "Reference" "SW1"
-			(at 22.86 171.45 0)
+			(at 21.844 175.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13472,7 +13804,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 22.86 173.99 0)
+			(at 21.844 178.054 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13481,8 +13813,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
-			(at 22.86 173.99 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 30.48 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13493,7 +13825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 173.99 0)
+			(at 30.48 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13504,7 +13836,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 22.86 179.07 0)
+			(at 30.48 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13515,7 +13847,7 @@
 			)
 		)
 		(property "LCSC Part #" "C720477"
-			(at 22.86 179.07 0)
+			(at 30.48 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13526,7 +13858,7 @@
 			)
 		)
 		(property "LCSC Link" "https://www.lcsc.com/product-detail/C49174479.html"
-			(at 22.86 179.07 0)
+			(at 30.48 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14107,6 +14439,82 @@
 			(project "better-pelarboj"
 				(path "/144e05ac-b12f-45a2-b32c-270a7a557059"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 158.75 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db4d325c-7b42-445c-a016-2ec8175d4a97")
+		(property "Reference" "H3"
+			(at 161.29 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 161.29 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 158.75 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 158.75 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "better-pelarboj"
+				(path "/144e05ac-b12f-45a2-b32c-270a7a557059"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -15339,6 +15747,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 30.48 187.96 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb5e387e-0397-42f9-87f6-2d7ad8143d02")
+		(property "Reference" "SW3"
+			(at 30.48 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 30.48 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-TH_TS665ZJ"
+			(at 30.48 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 30.48 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C557599"
+			(at 30.48 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "352384f6-65f1-4239-b7a6-ea9f74992b04")
+		)
+		(pin "2"
+			(uuid "51010ca9-9865-4d91-848b-8993299db5d7")
+		)
+		(instances
+			(project "better-pelarboj"
+				(path "/144e05ac-b12f-45a2-b32c-270a7a557059"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 25.4 102.87 0)
 		(mirror x)
@@ -15561,36 +16060,24 @@
 		)
 	)
 	(group ""
-		(uuid "a5d6761f-39f8-429d-8137-e2095af74555")
+		(uuid "a5d6761f-39f8-429d-8137-e2095af74557")
 		(members "0525da0c-9156-49ae-96bd-98545d43ee2b" "0832c66f-c9dc-4b8b-9d9d-f1a3db6bd262"
-			"127a615c-bce6-4a23-aa13-d7de244f914f" "1919bfd8-f126-43c7-8a7b-b6f81fbc235c"
-			"1982bf8b-bc0a-4ab1-a885-69cfeeffdc9b" "21bec5a2-2ed5-4c61-b873-18451531c877"
+			"0fbda278-13aa-41a7-82e7-3c25829b404d" "127a615c-bce6-4a23-aa13-d7de244f914f"
+			"1919bfd8-f126-43c7-8a7b-b6f81fbc235c" "1982bf8b-bc0a-4ab1-a885-69cfeeffdc9b"
+			"21bec5a2-2ed5-4c61-b873-18451531c877" "29900d70-b980-4a06-a35e-2b8f3de0a1a2"
 			"306b4214-4322-4f50-92d0-da43c2822a87" "390f3e08-ba66-4459-9606-e0152687002d"
-			"3a246604-9c23-43d9-b62e-85fd8fbdb80d" "3c09b080-d06a-40d5-a030-0e5b7397dd77"
+			"3a246604-9c23-43d9-b62e-85fd8fbdb80d" "4bce4c39-a178-4789-9be6-bae5971e7ccf"
 			"4e179dd8-b3c3-448e-ad73-1677fecca819" "50cb9da8-2a91-459b-b819-02f80c173bf1"
-			"74fe90fe-5ec4-4b70-8424-b85cac46f5b7" "7b9aa736-300e-4d2b-9cdb-7b88fdeae6a5"
-			"86a94987-6f63-492b-b7e3-005432e070cd" "9976d6f2-44ad-4c89-92b9-68a7693976c2"
-			"9d30971d-b3da-4785-9c8e-bb3bc5d891b0" "ba40053f-c140-4781-9dc6-d6f5ece4bb8c"
+			"6b912cd8-f0b2-4825-891d-91f0b7776aa7" "77bdd1de-0ef6-4280-80cc-8eb4037830ba"
+			"786f780c-c094-4ccb-a0f4-47dcdc9318ee" "7b5c45ad-ab02-4228-b3ab-c4ba55ec3e70"
+			"7b9aa736-300e-4d2b-9cdb-7b88fdeae6a5" "86a94987-6f63-492b-b7e3-005432e070cd"
+			"9976d6f2-44ad-4c89-92b9-68a7693976c2" "9d30971d-b3da-4785-9c8e-bb3bc5d891b0"
+			"a48bf5ec-cbe1-41b9-8faf-e7f8ac72760f" "b16b586d-795d-4018-9c6f-f77f51398e3b"
+			"b6def70f-60c8-45d4-b807-8f6c4fa8ffcb" "ba40053f-c140-4781-9dc6-d6f5ece4bb8c"
 			"bc0dee0c-73da-4d84-acf2-8fa8860b905f" "c28b4f3c-b9e9-4db3-b96a-633ae6b87f05"
-			"d1b6787b-6c87-4f26-9352-e3f4886b9562" "d34b5c48-04e6-4517-a581-8e87d78b75c3"
-			"e36fe650-6e65-40bc-9cfb-d9170da1e2d4" "f9796a42-dda0-4770-b12a-04017225e8dd"
-			"ff053a8d-ff4d-40d2-9372-03b468e7fa83"
-		)
-	)
-	(group ""
-		(uuid "a5d6761f-39f8-429d-8137-e2095af74555")
-		(members "0525da0c-9156-49ae-96bd-98545d43ee2b" "0832c66f-c9dc-4b8b-9d9d-f1a3db6bd262"
-			"127a615c-bce6-4a23-aa13-d7de244f914f" "1919bfd8-f126-43c7-8a7b-b6f81fbc235c"
-			"1982bf8b-bc0a-4ab1-a885-69cfeeffdc9b" "21bec5a2-2ed5-4c61-b873-18451531c877"
-			"306b4214-4322-4f50-92d0-da43c2822a87" "390f3e08-ba66-4459-9606-e0152687002d"
-			"3a246604-9c23-43d9-b62e-85fd8fbdb80d" "3c09b080-d06a-40d5-a030-0e5b7397dd77"
-			"4e179dd8-b3c3-448e-ad73-1677fecca819" "50cb9da8-2a91-459b-b819-02f80c173bf1"
-			"74fe90fe-5ec4-4b70-8424-b85cac46f5b7" "7b9aa736-300e-4d2b-9cdb-7b88fdeae6a5"
-			"86a94987-6f63-492b-b7e3-005432e070cd" "9976d6f2-44ad-4c89-92b9-68a7693976c2"
-			"9d30971d-b3da-4785-9c8e-bb3bc5d891b0" "ba40053f-c140-4781-9dc6-d6f5ece4bb8c"
-			"bc0dee0c-73da-4d84-acf2-8fa8860b905f" "c28b4f3c-b9e9-4db3-b96a-633ae6b87f05"
-			"d1b6787b-6c87-4f26-9352-e3f4886b9562" "d34b5c48-04e6-4517-a581-8e87d78b75c3"
-			"e36fe650-6e65-40bc-9cfb-d9170da1e2d4" "f9796a42-dda0-4770-b12a-04017225e8dd"
+			"cc0e7526-6884-489b-965a-49f3efaf3833" "d1b6787b-6c87-4f26-9352-e3f4886b9562"
+			"d34b5c48-04e6-4517-a581-8e87d78b75c3" "e36fe650-6e65-40bc-9cfb-d9170da1e2d4"
+			"f9796a42-dda0-4770-b12a-04017225e8dd" "fb5e387e-0397-42f9-87f6-2d7ad8143d02"
 			"ff053a8d-ff4d-40d2-9372-03b468e7fa83"
 		)
 	)

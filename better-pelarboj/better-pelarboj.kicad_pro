@@ -76,7 +76,48 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|85250000|150262794|84b7429a-eeb4-4848-8af3-7d66da1550ea|6633aab6-c5b6-4773-b955-ec11efe56d22",
+          ""
+        ],
+        [
+          "copper_edge_clearance|89750000|150262794|84b7429a-eeb4-4848-8af3-7d66da1550ea|3322ae88-bdfd-4253-955a-a94f95c29571",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|98612051|128937249|8b5b56ce-8776-4635-8d02-1163ab9b7c0a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|65376583|72500000|ebf802ac-7ecb-46a8-8736-46abd3c8bc31|50b2cddf-847f-4790-a23a-af261f2e1aa0",
+          ""
+        ],
+        [
+          "silk_edge_clearance|74374000|72500000|ebf802ac-7ecb-46a8-8736-46abd3c8bc31|a3ea58fe-47f3-44ff-84d8-d306eadcded9",
+          ""
+        ],
+        [
+          "silk_edge_clearance|83750000|144680400|3fc8d2bb-a924-4fd1-b7f3-628e38d27712|8053d8d8-47bd-4bbd-8866-91ad5ebb3d55",
+          ""
+        ],
+        [
+          "silk_edge_clearance|83750000|144680400|3fc8d2bb-a924-4fd1-b7f3-628e38d27712|9bd0be56-c032-4966-b0be-8028ba57da8f",
+          ""
+        ],
+        [
+          "silk_edge_clearance|85750000|150262794|84b7429a-eeb4-4848-8af3-7d66da1550ea|7f603642-749d-4572-aea8-3dcf9eeb04e9",
+          ""
+        ],
+        [
+          "silk_edge_clearance|89250000|150262794|84b7429a-eeb4-4848-8af3-7d66da1550ea|e61d0e66-2702-4813-aa8a-bf3930a48eaf",
+          ""
+        ],
+        [
+          "silk_edge_clearance|91250000|144680400|3fc8d2bb-a924-4fd1-b7f3-628e38d27712|ea5e3543-58c9-4255-b1e8-0e8f6956ae9b",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -120,7 +161,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "error",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -214,6 +255,7 @@
         0.00635,
         0.381,
         0.381,
+        0.4572,
         0.513098,
         0.762,
         1.016,
@@ -674,7 +716,7 @@
         "uuid": "144e05ac-b12f-45a2-b32c-270a7a557059"
       }
     ],
-    "used_designators": "#PWR9,D7-8",
+    "used_designators": "SW3,H1-3",
     "variants": []
   },
   "sheets": [

@@ -8104,7 +8104,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0126e88d-173b-485f-bc05-cf03e521d6bc")
 		(property "Reference" "H2"
@@ -8314,7 +8314,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "https://jlcpcb.com/partdetail/26077-1206W4F100LT5E/C25334"
+		(property "LCSC Part #" "C25334"
 			(at 109.22 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -8723,7 +8723,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "21bec5a2-2ed5-4c61-b873-18451531c877")
 		(property "Reference" "U1"
@@ -8999,6 +8999,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C22775"
+			(at 254 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d3dd33d0-2ac2-4b91-939d-345742d35538")
 		)
@@ -9203,7 +9214,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "34f460d6-c7b3-4e64-9606-24c1cdcccc71")
 		(property "Reference" "SW2"
@@ -9898,6 +9909,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C23150"
+			(at 91.44 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cb968a4e-bb07-4465-ab0f-e71e07029d27")
 		)
@@ -10039,7 +10061,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "49.9k"
 			(at 49.53 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10073,6 +10095,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 52.07 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C23184"
 			(at 52.07 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -10370,6 +10403,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C8598"
+			(at 236.22 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "af02a709-c1c5-46af-838e-81accba7a8e9")
 		)
@@ -10557,7 +10601,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C52923"
+		(property "LCSC Part #" "C307331"
 			(at 246.38 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -10678,10 +10722,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6d165546-facb-4592-a78e-53d082d70380")
 		(property "Reference" "J2"
@@ -10919,6 +10963,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 91.44 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25803"
 			(at 91.44 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -11550,8 +11605,19 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C379389"
+		(property "LCSC Part" ""
 			(at 66.04 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C379389"
+			(at 66.04 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11680,6 +11746,17 @@
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
 			(at 260.35 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C15127"
+			(at 260.35 31.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11949,6 +12026,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C22775"
+			(at 210.82 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5b7e413f-4fb4-40a5-9967-c6f823dd783b")
 		)
@@ -12029,7 +12117,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "https://jlcpcb.com/partdetail/26077-1206W4F100LT5E/C25334"
+		(property "LCSC Part #" "C25334"
 			(at 109.22 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -12121,6 +12209,17 @@
 			)
 		)
 		(property "Description" "Schottky diode"
+			(at 236.22 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C8598"
 			(at 236.22 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -12700,7 +12799,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9c2a0f90-e5dd-45d2-b2e5-c2a42053f032")
 		(property "Reference" "H1"
@@ -13857,7 +13956,7 @@
 				)
 			)
 		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/C49174479.html"
+		(property "LCSC Link" ""
 			(at 30.48 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -14195,6 +14294,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C22775"
+			(at 238.76 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8cb23484-c7bf-4f1a-be13-cb001674b8be")
 		)
@@ -14453,7 +14563,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "db4d325c-7b42-445c-a016-2ec8175d4a97")
 		(property "Reference" "H3"
@@ -14788,6 +14898,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C17414"
+			(at 109.22 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5b297c41-9785-4808-96f2-b25c34e52294")
 		)
@@ -14946,6 +15067,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C840531"
+			(at 95.25 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8b72e9af-19f5-4689-aad4-031165c9be0c")
 		)
@@ -14967,10 +15099,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ed0f97d7-acdc-49c2-a0d8-b89d96157132")
 		(property "Reference" "J3"
@@ -15063,7 +15195,7 @@
 				)
 			)
 		)
-		(property "Value" "Schottky"
+		(property "Value" "D_Schottky"
 			(at 87.884 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15286,7 +15418,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Schottky"
+		(property "Value" "D_Schottky"
 			(at 87.63 111.506 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15321,6 +15453,17 @@
 		)
 		(property "Description" "Schottky diode, small symbol"
 			(at 90.17 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C8598"
+			(at 90.17 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15895,6 +16038,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 25.4 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C21190"
 			(at 25.4 102.87 0)
 			(hide yes)
 			(show_name no)

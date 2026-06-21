@@ -16,6 +16,10 @@ form factor that can securely fit into the existing case without any need for mo
 Pelarboj is a compound word in Swedish composed of pelare (pillar) and buoy (boj). I wanted to find a name similar to this style, and originally (or maybe not so much) thought of plattboj, flat and buoy, referncing how this mod just gets squeezed in between that LEDs and big void.
 However, that name is already taken (shocker, no original thoughts exist these days 😭) in the form of disposable cell batteries, forcing me to settle on the alternative, flytboj: floating buoy ("floating" in between that layers of the interior).
 
+
+## OnShape
+[https://cad.onshape.com/documents/6a6cc990155203ee9358141d/w/edd2b1eb29a5a3bfc9bf4f54/e/d732d6e58b55189afc99dc7b?renderMode=0&uiState=6a37fa7a2eaad570a6afb0c3](https://cad.onshape.com/documents/6a6cc990155203ee9358141d/w/edd2b1eb29a5a3bfc9bf4f54/e/d732d6e58b55189afc99dc7b?renderMode=0&uiState=6a37fa7a2eaad570a6afb0c3)
+
 ## PCB
 ![](/images/pcb.png)
 ## Schematic
